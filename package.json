@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/amex23/my-portfolio.git",
+  "homepage": "https://github.com/amex23/janamir-xavier.git",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "jquery": "^3.4.1",
@@ -17,6 +17,8 @@
     "typed.js": "^2.0.10"
   },
   "scripts": {
+
+    
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
@@ -43,12 +45,12 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shloksomani/react-portfolio.git"
+    "url": "https://github.com/amex23/janamir-xavier.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/amex23/my-portfolio.git"
+    "url": "https://github.com/amex23/janamir-xavier.git"
   },
   "devDependencies": {
     "gh-pages": "^2.2.0"

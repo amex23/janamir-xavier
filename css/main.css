@@ -519,15 +519,25 @@ img {
 }
 
 @media (max-width: 500px) {
-  #main-nav {
-    flex-direction: column;
-    align-items: center;
-  }
-  #main-nav li {
-    padding: 1rem;
-  }
+      #main-nav {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      #main-nav ul {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr 1fr !important;
+        margin-top: 3vh;
+        gap: 5px;
+      }
+
+          #main-nav li {
+            padding: 8px 25px !important; 
+            text-align: center;
+          }
+
   #header-home {
-    height: 10rem;
+    height: 14rem;
     border-bottom: 3px solid #ffbc00;
     background-position: 20% 30%;
   }
@@ -535,7 +545,7 @@ img {
     display: none;
   }
   #header-inner {
-    height: 10rem;
+    height: 14rem;
   }
   #home-a .specials,
   #home-b .stats,
